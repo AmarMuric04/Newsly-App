@@ -545,11 +545,11 @@ document.querySelector(".profile-picture-container").innerHTML = `  <img
                 </div>
                 <div class="mid-account-section">
                   <p>Email: <span>${loggedInAs.email}</span></p>
-                  <p>Level: <span>0</span></p>
+                  <p>Level: <span>0</span></p>1
                   <p>Joined: <span>${loggedInAs.joined}</span></p>
                 </div>
                 <div class="settings">
-                  <p>User settings</p>
+                  <a href="../html/settings-page.html#home">User settings</a>
                   <p>Preferences</p>
                   <p>Bookmarks</p>
                 </div>

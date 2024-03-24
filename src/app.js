@@ -154,7 +154,7 @@ const checkIfLoggedIn = function () {
     );
     document.querySelector(
       ".right-side-nav"
-    ).innerHTML = `<a class="nav-button" href="./login-page.html"><button>Create an account</button></a>`;
+    ).innerHTML = `<a class="nav-button" href="./login-page.html"><button>Create an a</button></a>`;
   }
 };
 checkIfLoggedIn();
