@@ -550,8 +550,8 @@ document.querySelector(".profile-picture-container").innerHTML = `  <img
                 </div>
                 <div class="settings">
                   <a href="../html/settings-page.html#home">User settings</a>
-                  <p>Preferences</p>
-                  <p>Bookmarks</p>
+                  <a href="../html/settings-page.html#preferences">Preferences</a>
+                  <a href="../html/settings-page.html#bookmarks">Bookmarks</a>
                 </div>
                 <button class="log-out">Log out</button>
               </div>`;

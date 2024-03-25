@@ -4739,50 +4739,6 @@ const pricingPageHTML = function (container) {
               </div>
             </div>
             <div id="pricing-two">
-              <div id="option-preview" class="gold-preview">
-                <div class="option-preview-top">
-                  <div class="option-preview-icon">
-                    <span class="basil--diamond-solid lag"></span>
-                  </div>
-                  <div class="option-preview-title">
-                    <h1>Gold</h1>
-                    <p>News wizard</p>
-                  </div>
-                  <h1 class="membership-container">Membership</h1>
-                </div>
-                <div class="option-preview-bottom">
-                  <div class="option-preview-list-container">
-                    <ul class="option-preview-list">
-                      <li>
-                        <span class="carbon--checkmark fog"></span>Lorem, ipsum.
-                      </li>
-                      <li>
-                        <span class="carbon--checkmark fog"></span>Lorem, ipsum.
-                      </li>
-                      <li>
-                        <span class="carbon--checkmark fog"></span>Lorem, ipsum.
-                      </li>
-                      <li>
-                        <span class="carbon--checkmark fog"></span>Lorem, ipsum.
-                      </li>
-                    </ul>
-                    <ul class="option-preview-list">
-                      <li>
-                        <span class="carbon--checkmark fog"></span>Lorem, ipsum.
-                      </li>
-                      <li>
-                        <span class="material-symbols-light--close fog"></span
-                        >Lorem, ipsum.
-                      </li>
-                      <li>
-                        <span class="material-symbols-light--close fog"></span
-                        >Lorem, ipsum.
-                      </li>
-                    </ul>
-                  </div>
-                  <button>Buy 1 month</button>
-                </div>
-              </div>
             </div>
             <div id="pricing-three">
               <div id="pricing-three-top">

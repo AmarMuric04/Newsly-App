@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../styles/pricingPage.css" />
     <link rel="stylesheet" href="../styles/aboutPage.css" />
     <link rel="stylesheet" href="../styles/bookmarksPage.css" />
+    <link rel="stylesheet" href="../styles/helpPage.css" />
 
     <script defer src="../src/settings.js"></script>
     <title>Newsly | Settings</title>
@@ -81,40 +82,23 @@
         </div>
       </div>
       <div id="display">
-        <div id="bookmarks">
-          <div id="bookmarks-top">
-            <div id="bookmarks-title">
-              <h1>Bookmarks</h1>
-              <p>Check out your favorite categories</p>
+        <div id="help">
+          <form id="help-left" action="submit">
+            <h2>Get in Touch</h2>
+            <p>Send us an email or call our phone.</p>
+            <div class="help-input-group">
+              <input type="text" name="" id="" />
+              <p>What's your email?</p>
             </div>
-          </div>
-          <div id="bookmarks-bottom">
-            <div id="bookmarked-container">
-              <button class="bookmarks-button" id="bookmarked-categories">
-                CATEGORIES
-              </button>
-              <button class="bookmarks-button" id="bookmarked-locations">
-                LOCATIONS
-              </button>
-              <button class="bookmarks-button" id="bookmarked-sources">
-                SOURCES
-              </button>
-              <button class="bookmarks-button" id="bookmarked-searches">
-                SEARCHES
-              </button>
-              <button class="bookmarks-button" id="bookmarked-stories">
-                STORIES
-              </button>
+            <div class="help-input-group">
+              <input type="text" name="" id="" />
+              <p>What do you need help with?</p>
             </div>
-            <div id="bookmarked">
-              <div id="none-bookmarked">
-                <img
-                  src="https://s3.amazonaws.com/digitalgov/hcd-intro_w600.png"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+            <button id="help-send">Send</button>
+          </form>
+          <section id="help-right">
+            <img src="../need_help-removebg-preview.png" alt="" />
+          </section>
         </div>
       </div>
     </div>
