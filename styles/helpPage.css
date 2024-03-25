@@ -2,17 +2,128 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+}
+
+#help-top {
+  height: 20%;
+  box-shadow: 0rem 2rem 1rem var(--main-background-accent);
+  display: flex;
+  align-items: center;
+}
+
+#help-title {
+  margin-left: 2rem;
+}
+
+#help-form-title {
+  margin-left: 2rem;
+  text-align: center;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 2rem;
+}
+
+#help-bottom {
+  height: 80%;
+  width: 100%;
+  display: flex;
 }
 
 #help-left,
 #help-right {
-  width: 50%;
+  width: calc(50% - 10rem);
   display: flex;
-  align-items: center;
   justify-content: center;
+
+  padding: 0rem 5rem;
 }
 
 #help-left {
   flex-direction: column;
+  align-items: center;
   text-align: start;
+
+  gap: 2rem;
+}
+
+#help-left h2 {
+  font-size: 4rem;
+}
+
+.help-input-group {
+  position: relative;
+}
+
+.help-input-text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--input-text-background);
+  color: var(--input-color);
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+
+#help-input-text {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#help-textarea-text {
+  top: 1rem;
+}
+
+.help-input-group input,
+.help-input-group textarea {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  width: 100%;
+  height: 3rem;
+  background-color: var(--input-background);
+  color: var(--input-color);
+
+  width: 30rem;
+}
+
+.help-input-group input:focus,
+.help-input-group textarea:focus {
+  outline: none;
+}
+
+#help-first-input {
+  margin-top: 2rem;
+}
+
+.help-input-group textarea {
+  width: 30rem;
+  min-width: 30rem;
+  max-width: 30rem;
+
+  min-height: 10rem;
+  max-height: 10rem;
+  height: 10rem;
+
+  padding: 1rem 0.5rem;
+}
+
+#help-right img {
+  object-fit: contain;
+  max-width: 80%;
+}
+
+#help-send {
+  padding: 2rem 3rem;
+  width: 30%;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--control-window-text-color);
+
+  cursor: pointer;
+}
+
+#help-send:hover {
+  border: 3px solid var(--control-window-text-color);
+  margin: -3px;
 }
